@@ -24,7 +24,7 @@ $min = (int) $answerMin;
 echo "установлено минимальное число \n";
 
 do {
-    $answerMax = readline(" Пожалуйства введите минимальное число... ");
+    $answerMax = readline(" Пожалуйства введите максимальное число... ");
 } while (!is_numeric($answerMax));
 
 $max = (int) $answerMax;
